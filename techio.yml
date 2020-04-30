@@ -2,3 +2,7 @@ title: Bot Programming 101
 plan:
 - title: Welcome
   statement: welcome.md
+- title: Tutorial
+  statement: tuto.md
+- title: Classic Mistakes to Avoid
+  statement: welcome.md
