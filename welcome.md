@@ -18,9 +18,9 @@ Your program "plays" the game by reading the data sent by CodinGame on the Stand
 
 ## Getting Started
 
-I've chosen [Ghost in the Cell](https://www.codingame.com/multiplayer/bot-programming/ghost-in-the-cell) because it's simple enough and quite fun. Let's see how fast we can get to the Bronze league.
+I've chosen [Ghost in the Cell](https://www.codingame.com/multiplayer/bot-programming/ghost-in-the-cell) because it's simple enough and quite fun. Let's see how fast we can get to the Bronze league. I'd say it'll take you 30 minutes, maximum an hour.
 
-I personally code in Java but the tutorial is pretty language-agnostic. So choose your favorite language in the dropdown above the code and let's get cracking!
+I personally code in Java but the tutorial is pretty language-agnostic. So choose your favorite language in the drop-down above the code and let's get cracking!
 
-__Disclaimer: this tutorial aims at showing how easy and straightforward it can be to get started into a bot programming game. There are plenty of classic algorithms to use in bot programming, however it's not the focus of this tutorial.__
+_Disclaimer: this tutorial aims at showing how easy and straightforward it can be to get started into a bot programming game. There are plenty of classic algorithms to use in bot programming, however it's not the focus of this tutorial._
 

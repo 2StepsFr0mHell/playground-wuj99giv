@@ -88,7 +88,7 @@ end if
 
 I'm sure you agree it's not rocket science. The code is not pretty at all but it's normal and for now, we don't care. Bear with me, we'll improve it. 
 
-This bot somehow beats the boss in the IDE 🎉
+This bot somehow beats the boss in the IDE  🎉
 
 For the Wood leagues, it's usually a good sign that you should submit your code right away because you have a good chance to get promoted. So let's submit. It gets me in the top 10 of the Wood 3 league. Not bad for the dumbest bot ever.
 
@@ -98,21 +98,23 @@ Let's see how to improve it.
 
 From there, we can start to list all the simple ideas we have to improve the bot and make it a bit less dumb. 
 
-1. Ignore factories that don't produce any cyborgs
+- #1 Ignore factories that don't produce any cyborgs
 
 _They are useless (for now), and the cyborgs I'll use to take these factories (by fighting enemy or neutral cyborgs) will be lost._
-2. Use the factory where I have the most cyborgs to send troops from
+
+- #2 Use the factory where I have the most cyborgs to send troops from
 
 _We want to avoid sending too few troops (or even 0) every turn while there are dozens of cyborgs sleeping in an another factory._
-3. Focus on the closest factories first
+
+- #3 Focus on the closest factories first
 
 _We want to take new factories and start producing new cyborgs as soon as possible._
 
-These ideas seem simple enough to code. Idea #1 is one _if_ condition. Idea #2 is a search for a _max_. Idea #3 may a bit more complex for now so I'll implement the first two and keep this one in store.
+These ideas seem simple enough to code. Idea #1 is one _if_ condition. Idea #2 is a search for a _max_. Idea #3 may a bit more complex for now so I'll implement the first two and keep the last one in store.
 
 It took me longer to write this than to code it. Let's submit!
 
-I'm promoted to Wood 2 🚀
+I'm promoted to Wood 2  🚀
 
 And already ranking in the top 10 of the Wood 2 league! That was easy, wasn't it?
 
@@ -122,7 +124,7 @@ Every new Wood league usually comes with a new rule to learn. Here, I'm told I c
 
 It's giving me a new simple idea that I add to my list:
 
-4. For each of my factories, send troops every turn.
+- #4 For each of my factories, send troops every turn.
 
 _More actions, more movements of cyborgs, better control of the map_
 
@@ -136,19 +138,19 @@ _Some players like to store all input directly; I prefer to pick only the data I
 
 Let's look into idea #3 then. At least, my code is cleaner and I know how to output multiple commands in one turn.
 
-So, until now, I only focused on some entities. Now, I need to focus on the map, here, a graph. Let's store the distances between factories during the first turn (since it's given before the `while` loop). I use a Map of Maps in Java.
+So, until now, I only focused on some entities. Now, I need to focus on the map, here, a graph. Let's store the distances between factories during the first turn (since it's given before the `while` loop). I'm using a `Map` of `Map` in Java.
 
-I'm adding a bit of logic before my loop to output my commands to get the closest enemy (or neutral) factory which produces cyborgs, and this for each of my factory.
+I'm adding a bit of logic before my loop to output the commands to get the closest enemy (or neutral) factory which produces cyborgs, and this for each of my factories.
 
 It's simply done with 2 `for` loops.
 
 After a few minutes of coding, I submit again! Wood 1, here I come 🎊
 
-And it seems this code is good enough to even be promoted to the Bronze league. Not even 100 lines of code of Java.
+And it seems this code is good enough to even be promoted to the Bronze league. Not even 100 lines of code of Java!
 
 _Don't worry if you miss some Wood rules, you can quickly scan the statement to check for the new rules in the updated statement._
 
-## What's next?
+# What's next?
 
 My advice is to continue iterating. Just continue implementing the simplest ideas you can find to improve your bot's decision making.
 

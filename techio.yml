@@ -4,5 +4,5 @@ plan:
   statement: welcome.md
 - title: Bot Programming Tutorial
   statement: tuto.md
-- title: Classic Mistakes
-  statement: mistake.md
+- title: Some Advice
+  statement: advice.md
