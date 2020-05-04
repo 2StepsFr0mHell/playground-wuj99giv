@@ -1,8 +1,8 @@
-title: Bot Programming 101
+title: Bot Programming on CodinGame: Tutorial for Beginners
 plan:
 - title: Introduction
   statement: welcome.md
-- title: Bot Programming Tutorial
+- title: Ghost in the Cell Tutorial
   statement: tuto.md
 - title: Some Advice
   statement: advice.md

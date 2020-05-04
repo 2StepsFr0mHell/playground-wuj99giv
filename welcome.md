@@ -16,6 +16,8 @@ Bot programming on CodinGame takes the form of multiplayer games where you write
 
 Your program "plays" the game by reading the data sent by CodinGame on the Standard Input Stream and sending a command on the Standard Output Stream at every turn of the game until there is a winner or a end condition is met.
 
+The game is divided into several leagues. You start in the Wood leagues with a simplified version of the game. When ranking up, you'll be promoted to new leagues: Bronze, Silver, Gold and finally Legend.
+
 ## Getting Started
 
 I've chosen [Ghost in the Cell](https://www.codingame.com/multiplayer/bot-programming/ghost-in-the-cell) because it's simple enough and quite fun. Let's see how fast we can get to the Bronze league. I'd say it'll take you 30 minutes, maximum an hour.
