@@ -4,5 +4,5 @@ plan:
   statement: welcome.md
 - title: Ghost in the Cell Tutorial
   statement: tuto.md
-- title: Some Advice
+- title: Useful resources
   statement: advice.md
