@@ -12,3 +12,11 @@
 - [Be Lazy and Keep it Simple](https://www.codingame.com/blog/lazy-keep-simple/) by Bob
 
 I also suggest reading the CodinGame integrated chat and the discussions in the Discord community. During challenges, they're full of good advice.
+
+# Advanced resources
+
+- [Designing the Perfect AI in a Coding Contest](https://www.codingame.com/blog/design-ai-contest/) by Icebox
+- [Contest Tools and Workflow](https://www.codingame.com/playgrounds/53705/contest-tools-and-workflow) by eulerscheZahl
+- [Using BitStreams in Legends of Code & Magic](https://www.youtube.com/watch?v=BU9b445CpaM) by reCurse
+- [CGStats](http://cgstats.magusgeek.com/app/) by Magus
+- [CGEnhancer](https://github.com/Azkellas/cgenhancer) by Azkellas
